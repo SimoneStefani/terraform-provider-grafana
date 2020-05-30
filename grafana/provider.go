@@ -3,10 +3,11 @@ package grafana
 import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/logging"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 	gapi "github.com/nytm/go-grafana-api"
 )
 
-func Provider() *schema.Provider {
+func Provider() terraform.ResourceProvider {
 	return &schema.Provider{
 		Schema: map[string]*schema.Schema{
 			"url": {
