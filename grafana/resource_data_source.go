@@ -18,11 +18,6 @@ func ResourceDataSource() *schema.Resource {
 		Read:   resourceDataSourceRead,
 
 		Schema: map[string]*schema.Schema{
-			"org_id": {
-				Type:     schema.TypeInt,
-				Optional: true,
-			},
-
 			"name": {
 				Type:     schema.TypeString,
 				Required: true,
@@ -167,7 +162,6 @@ func resourceDataSourceRead(d *schema.ResourceData, meta interface{}) error {
 	}
 
 	d.Set("id", dataSource.Id)
-	d.Set("org_id", dataSource.OrgId)
 	d.Set("name", dataSource.Name)
 	d.Set("type", dataSource.Type)
 	d.Set("access_mode", dataSource.Access)
@@ -203,7 +197,6 @@ func makeDataSource(d *schema.ResourceData) (*gapi.DataSource, error) {
 
 	return &gapi.DataSource{
 		Id:             id,
-		OrgId:          d.Get("org_id").(int64),
 		Name:           d.Get("name").(string),
 		Type:           d.Get("type").(string),
 		Access:         d.Get("access_mode").(string),
