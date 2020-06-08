@@ -290,6 +290,8 @@ github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRW
 github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d/go.mod h1:YUTz3bUH2ZwIWBy3CJBeOBEugqcmXREj14T+iG/4k4U=
 github.com/nytm/go-grafana-api v0.4.0 h1:tnk575CzCS2hW+cO6DwJttEDBXHL4PCbJvAjxwZetqw=
 github.com/nytm/go-grafana-api v0.4.0/go.mod h1:YOJL2MOLAmCeqz0cbHU9tZIDj0OxpOiIFKSJXRbAorY=
+github.com/nytm/go-grafana-api v0.5.0 h1:8pIbNPNDguBa4aUNxcYl0GN247W6PXMvsOwiRBmk1sE=
+github.com/nytm/go-grafana-api v0.5.0/go.mod h1:YOJL2MOLAmCeqz0cbHU9tZIDj0OxpOiIFKSJXRbAorY=
 github.com/oklog/run v1.0.0 h1:Ru7dDtJNOyC66gQ5dQmaCa0qIsAUFY3sFpK1Xk8igrw=
 github.com/oklog/run v1.0.0/go.mod h1:dlhp/R75TPv97u0XWUtDeV/lRKWPKSdTuV0TZvrmrQA=
 github.com/packer-community/winrmcp v0.0.0-20180102160824-81144009af58/go.mod h1:f6Izs6JvFTdnRbziASagjZ2vmf55NSIkC/weStxCHqk=
