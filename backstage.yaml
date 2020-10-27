@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-provider-grafana
+  description: Terraform Provider Grafana
+spec:
+  type: library
+  lifecycle: production
+  owner: s.stefani95@gmail.com
